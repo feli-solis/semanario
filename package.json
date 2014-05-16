@@ -1,0 +1,23 @@
+{
+  "name": "semanario",
+  "version": "0.0.1",
+  "description": "Aplicacion web para... el semanario?",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/feli_solis/semanario"
+  },
+  "keywords": [
+    "Congreso",
+    "ITSES"
+  ],
+  "author": "Luis Felipe Solis Enriquez",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
