@@ -21,12 +21,31 @@ module.exports = function(grunt){
               'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js',
               'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js',
               ],
-        dest: 'dist/js/'
+        dest: 'dist/js/app.min.js'
+      }
+    },
+    uglify: {
+      js: {
+        files: {
+          'dist/js/app.min.js': ['dist/js/app.min.js']
+        }
+      }
+    },
+    sass: {
+      css: {
+        options: {
+          style: 'compressed'
+        },
+        files: {
+          'dist/css/app.min.css': 'bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss'
+        }
       }
     },
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-sass');
 
 }
