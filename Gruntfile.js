@@ -41,11 +41,22 @@ module.exports = function(grunt){
         }
       }
     },
-
+    watch: {
+      sass: {
+        files: ['bower_components/bootstrap-sass-official/vendor/assets/stylesheets/**/*.scss'],
+        tasks: ['sass'],
+        options: {
+          livereload: true
+        }
+      }
+    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
+    grunt.registerTask('default', ['concat', 'uglify', 'sass', 'watch']);
 
 }
