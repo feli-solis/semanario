@@ -4,7 +4,7 @@
  * @author Edgar azael deanza González & Luis Felipe Solis Enriquez
  * @copyright 2014
  */	
-//error_reporting(E_ALL^ E_WARNING);  
+error_reporting(E_ALL^ E_NOTICE); 
 
 class connection
 {
@@ -41,19 +41,11 @@ class event{
 		$connection=new connection;
 		$connection->serverConnection();
 		$connection->databaseConnection();
+		mysql_set_charset('utf8'); 
 		return mysql_query($query);
 		$connection->closeConnection();
 	}
 
 }
 
-
-$evento=new event;
-$consulta=$evento->query('select hora,evento,ponente from programa');
-
-while($fila=mysql_fetch_array($consulta)){
-	echo '<p>Hora: '.$fila['hora'].'<br>';
-	echo 'Evento: '.$fila['evento']. ' '. $fila['ponente'] .'</p>';
-}
-mysql_free_result($consulta);
 ?>
