@@ -32,10 +32,10 @@ $consulta=$evento->query('select hora,evento,ponente from programa where fecha="
               <span class="fa fa-stack-1x">19</span>
             </span>
           </a></li>
-          <li><a href="#">20</a></li>
-          <li><a href="#">21</a></li>
-          <li><a href="#">22</a></li>
-          <li><a href="#">23</a></li>
+          <li><a href="index.php?day=20">20</a></li>
+          <li><a href="index.php?day=21">21</a></li>
+          <li><a href="index.php?day=22">22</a></li>
+          <li><a href="index.php?day=23">23</a></li>
         </ul>
         
         <div class="panel panel-info">
