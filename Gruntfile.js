@@ -37,13 +37,13 @@ module.exports = function(grunt){
           style: 'compressed'
         },
         files: {
-          'dist/css/app.min.css': 'bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss'
+          'dist/css/app.min.css': 'app/scss/app.scss',
         }
       }
     },
     watch: {
       sass: {
-        files: ['bower_components/bootstrap-sass-official/vendor/assets/stylesheets/**/*.scss'],
+        files: ['app/scss/*.scss'],
         tasks: ['sass'],
         options: {
           livereload: true
