@@ -6,6 +6,6 @@ http://qrs.ly/ng43iaq
 
 ### BD
 http://tomato.noip.me:8080/phpmyadmin
-- Nombre BD: suniversitaria
-- Usuario: suniversitaria
-- Password: suniversitaria
+-  Nombre BD: suniversitaria
+-  Usuario: suniversitaria
+-  Password: suniversitaria
