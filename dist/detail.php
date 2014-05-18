@@ -44,7 +44,7 @@ $consulta=$evento->query('select imagen from programa where id="'.$clave.'" orde
           <div class="panel-body">
                 <?php
                 while($fila=mysql_fetch_array($consulta)){
-                  echo "<img src=../maps/".$fila['imagen'].">";
+                  echo "<img src=../maps/".$fila['imagen']." class='img-responsive'>";
                 }
                 mysql_free_result($consulta);
                 ?>
