@@ -26,16 +26,46 @@ $consulta=$evento->query('select hora,evento,ponente from programa where fecha="
         <div class="panel-body" id="<?php echo $day; ?>">
         
         <ul class="nav nav-justified nav-pills">
-          <li class="active"><a href="#">
-            <span class="fa-stack">
-              <i class="fa fa-calendar-o fa-stack-2x"></i>
-              <span class="fa fa-stack-1x">19</span>
-            </span>
-          </a></li>
-          <li><a href="index.php?day=20">20</a></li>
-          <li><a href="index.php?day=21">21</a></li>
-          <li><a href="index.php?day=22">22</a></li>
-          <li><a href="index.php?day=23">23</a></li>
+          <li class="active">
+            <a href="#">
+              <span class="fa-stack">
+                <i class="fa fa-calendar-o fa-stack-2x"></i>
+                <span class="fa fa-stack-1x">19</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="index.php?day=20">
+              <span class="fa-stack">
+                <i class="fa fa-calendar-o fa-stack-2x"></i>
+                <span class="fa fa-stack-1x">20</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="index.php?day=21">
+              <span class="fa-stack">
+                <i class="fa fa-calendar-o fa-stack-2x"></i>
+                <span class="fa fa-stack-1x">21</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="index.php?day=22">
+              <span class="fa-stack">
+                <i class="fa fa-calendar-o fa-stack-2x"></i>
+                <span class="fa fa-stack-1x">22</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="index.php?day=23">
+              <span class="fa-stack">
+                <i class="fa fa-calendar-o fa-stack-2x"></i>
+                <span class="fa fa-stack-1x">23</span>
+              </span>
+            </a>
+          </li>
         </ul>
         
         <div class="panel panel-info">
