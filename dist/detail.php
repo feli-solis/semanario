@@ -33,21 +33,23 @@ $consulta=$evento->query('select imagen from programa where id="'.$clave.'" orde
               <span class="fa fa-stack-1x">19</span>
             </span>
           </a></li>
-          <li><a href="#">20</a></li>
-          <li><a href="#">21</a></li>
-          <li><a href="#">22</a></li>
-          <li><a href="#">23</a></li>
+          <li><a href="index.php?clave=20">20</a></li>
+          <li><a href="index.php?clave=21">21</a></li>
+          <li><a href="index.php?clave=22">22</a></li>
+          <li><a href="index.php?clave=23">23</a></li>
         </ul>
         
         <div class="panel panel-info">
           <div class="panel-heading"><h2 class="text-center"><i class="fa fa-calendar-o fa-lg"></i>19</h2></div>
           <div class="panel-body">
+            <center>
                 <?php
                 while($fila=mysql_fetch_array($consulta)){
                   echo "<img src=../maps/".$fila['imagen']." class='img-responsive'>";
                 }
                 mysql_free_result($consulta);
                 ?>
+              </center>
           </div>
         </div>
 
