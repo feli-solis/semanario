@@ -27,16 +27,46 @@ $consulta=$evento->query('select imagen from programa where id="'.$clave.'" orde
         <div class="panel-body" id="<?php echo $day; ?>">
         
         <ul class="nav nav-justified nav-pills">
-          <li class="active"><a href="index.php?clave=19">
-            <span class="fa-stack">
-              <i class="fa fa-calendar-o fa-stack-2x"></i>
-              <span class="fa fa-stack-1x">19</span>
-            </span>
-          </a></li>
-          <li><a href="index.php?clave=20">20</a></li>
-          <li><a href="index.php?clave=21">21</a></li>
-          <li><a href="index.php?clave=22">22</a></li>
-          <li><a href="index.php?clave=23">23</a></li>
+          <li class="active">
+            <a href="index.php?day=19">
+              <span class="fa-stack">
+                <i class="fa fa-calendar-o fa-stack-2x"></i>
+                <span class="fa fa-stack-1x">19</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="index.php?day=20">
+              <span class="fa-stack">
+                <i class="fa fa-calendar-o fa-stack-2x"></i>
+                <span class="fa fa-stack-1x">20</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="index.php?day=21">
+              <span class="fa-stack">
+                <i class="fa fa-calendar-o fa-stack-2x"></i>
+                <span class="fa fa-stack-1x">21</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="index.php?day=22">
+              <span class="fa-stack">
+                <i class="fa fa-calendar-o fa-stack-2x"></i>
+                <span class="fa fa-stack-1x">22</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="index.php?day=23">
+              <span class="fa-stack">
+                <i class="fa fa-calendar-o fa-stack-2x"></i>
+                <span class="fa fa-stack-1x">23</span>
+              </span>
+            </a>
+          </li>
         </ul>
         
         <div class="panel panel-info">
