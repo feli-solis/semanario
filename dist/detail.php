@@ -6,7 +6,7 @@ $clave=$_GET['clave'];
 if ($day==NULL){
   $day=date('d');
 }
-$consulta=$evento->query('select imagen from programa where id="'.$clave.'" order by id asc');
+$consulta=$evento->query('select * from programa where id="'.$clave.'" order by id asc');
 ?>
 <!DOCTYPE html>
 <html lang="">
@@ -73,12 +73,29 @@ $consulta=$evento->query('select imagen from programa where id="'.$clave.'" orde
           <div class="panel-heading"><h2 class="text-center"><i class="fa fa-calendar-o fa-lg"></i>Mayo <?php echo $day; ?></h2></div>
           <div class="panel-body">
             <center>
+            <table class="table table-condensed table-striped">
+              <thead>
+                <tr>
+                  <th>Hora</th>
+                  <th>Evento</th>
+                  <th>Lugar</th>
+                </tr>
+              </thead>
+              <tbody>
                 <?php
                 while($fila=mysql_fetch_array($consulta)){
                   echo "<img src=../maps/".$fila['imagen']." class='img-responsive'>";
+                  echo '<tr><td>'.$fila['hora'].'</td>';
+                  echo '<td>'.$fila['evento']. ' '. $fila['ponente'] .'</td>';
+                  echo '<td>'.$fila['lugar']. '</td></tr>';
                 }
                 mysql_free_result($consulta);
-                ?>
+                ?>     
+              
+
+              </tbody>
+            </table>
+
               </center>
           </div>
         </div>
