@@ -26,7 +26,7 @@ $consulta=$evento->query('select id,hora,evento,ponente from programa where fech
         <div class="panel-body" id="<?php echo $day; ?>">
         
         <ul class="nav nav-justified nav-pills">
-          <li class="active">
+          <li>
             <a href="index.php?day=19">
               <span class="fa-stack">
                 <i class="fa fa-calendar-o fa-stack-2x"></i>

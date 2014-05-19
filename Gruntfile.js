@@ -20,6 +20,7 @@ module.exports = function(grunt){
               'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js',
               'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js',
               'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js',
+              'app/js/functions.js'
               ],
         dest: 'dist/js/app.min.js'
       }
