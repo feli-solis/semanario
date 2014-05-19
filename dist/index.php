@@ -5,7 +5,7 @@ $day=$_GET['day'];
 if ($day==NULL){
   $day=date('d');
 }
-$consulta=$evento->query('select hora,evento,ponente from programa where fecha="2014-05-'.$day.'" order by id asc');
+$consulta=$evento->query('select id,hora,evento,ponente from programa where fecha="2014-05-'.$day.'" order by id asc');
 ?>
 <!DOCTYPE html>
 <html lang="">
@@ -81,7 +81,7 @@ $consulta=$evento->query('select hora,evento,ponente from programa where fecha="
               <tbody>
                 <?php
                 while($fila=mysql_fetch_array($consulta)){
-                  echo '<tr><td>'.$fila['hora'].'</td>';
+                  echo '<tr onClick=document.location="detail.php?clave='.$fila["id"].'&day='.$day.'" style="cursor:pointer;"><td>'.$fila['hora'].'</td>';
                   echo '<td>'.$fila['evento']. ' '. $fila['ponente'] .'</td></tr>';
                 }
                 mysql_free_result($consulta);
