@@ -1,5 +1,5 @@
 <?php
-include "/php/class.php";
+include "php/class.php";
 $evento=new event;
 $day=$_GET['day'];
 if ($day==NULL){
@@ -10,7 +10,7 @@ $consulta=$evento->query('select id,hora,evento,ponente from programa where fech
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <title>Title Page</title>
+    <title>X Semana Universitaria</title>
     <meta charset="UTF-8">
     <meta name=description content="">
     <meta name=viewport content="width=device-width, initial-scale=1">

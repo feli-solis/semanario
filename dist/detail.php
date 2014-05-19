@@ -1,5 +1,5 @@
 <?php
-include "/php/class.php";
+include "php/class.php";
 $evento=new event;
 $day=$_GET['day'];
 $clave=$_GET['clave'];
@@ -11,7 +11,7 @@ $consulta=$evento->query('select * from programa where id="'.$clave.'" order by 
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <title>Title Page</title>
+    <title>X Semana Universitaria</title>
     <meta charset="UTF-8">
     <meta name=description content="">
     <meta name=viewport content="width=device-width, initial-scale=1">
