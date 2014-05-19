@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 19, 2014 at 03:00 AM
+-- Generation Time: May 19, 2014 at 05:15 AM
 -- Server version: 5.5.32
 -- PHP Version: 5.4.19
 
@@ -46,14 +46,13 @@ INSERT INTO `programa` (`id`, `fecha`, `hora`, `evento`, `ponente`, `lugar`, `im
 (2, '2014-05-19', '12:00-12:30', 'Ceremonia de Inauguración\r\n\r\n', '', 'Patio Principal', 'patio.svg'),
 (3, '2014-05-19', '', 'Presentación del Coro del Instituto Sanmiguelense', '', 'Patio Principal', 'patio.svg'),
 (4, '2014-05-19', '14:00-15:00', 'Conferencia Magistral "Energías Renovables y Desarrollo\r\nSustentable: Fuente de Oportunidades Para el Ecosistema Emprendedor"', 'Por la Dra. Delia Simental.', 'Sala de Duela', 'duela.svg'),
-(5, '2014-05-19', '15:00-16:00', 'Exposición de los Posters Pre y Post Guerra', 'de Martin Rossenberg.', 'Arcos y Corredores', 'arcos.svg'),
 (6, '2014-05-20', '8:00-11:00', 'Exposición Academica de Química y Física', '', 'Sala de Duela', 'duela.svg'),
 (7, '2014-05-20', '9:00-13:00', 'Olimpiada Regional de Matemáticas', '', 'Salon de Usos Multiples', 'salon.svg'),
 (8, '2014-05-20', '12:00-13:00', 'Conferencia Magistral "Emprendurismo"', 'Por la Dra. Sofia Ayala.', 'Sala de Duela', 'duela.svg'),
 (9, '2014-05-20', '15:00-16:00', 'Charla "¿Nini ó Creativo?"', 'Por Benshorts.', 'Patio Principal', 'patio.svg'),
 (10, '2014-05-21', '8:00-10:00', 'Conferencia "La Realidad de las Ideas"', 'Por el Ing. Fernando Balderas López.', 'Sala de Duela', 'duela.svg'),
 (11, '2014-05-21', '10:00-13:00', 'Talleres de Risoterapia', 'Para Alumnos de Preparatoria.', 'Prados', 'mapa.svg'),
-(12, '2014-05-21', '13:00-14', 'Conferencia Magistral "La Imagen"', 'Por el Maestro Adolfo Falcón Garza.', 'Sala de Duela', 'duela.svg'),
+(12, '2014-05-21', '10:30-12:00', 'Conferencia Magistral "La Imagen"', 'Por el Maestro Adolfo Falcón Garza.', 'Sala de Duela', 'duela.svg'),
 (13, '2014-05-21', '18:00-19:00', 'Presentación del Libro "Remolino", Libro Interactivo de Análisis Político', 'Por el Dr. Sergio Aguayo.', 'Patio Principal', 'patio.svg'),
 (14, '2014-05-22', '8:00-18:00', 'Evento Deportivo y de Convivencia de la Comunidad Sanmiguelense', '', 'Escuela', 'mapa.svg'),
 (15, '2014-05-22', '10:00-11:30', 'Conferencia Magistral "Vive, Desarróllate, Viste y Actúa Como Todo un Líder"', 'Por el Mtro.Raúl Sadoc Ríos Ortega.', 'Sala de Duela', 'duela.svg'),
