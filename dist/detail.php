@@ -70,7 +70,7 @@ $consulta=$evento->query('select imagen from programa where id="'.$clave.'" orde
         </ul>
         
         <div class="panel panel-info">
-          <div class="panel-heading"><h2 class="text-center"><i class="fa fa-calendar-o fa-lg"></i>19</h2></div>
+          <div class="panel-heading"><h2 class="text-center"><i class="fa fa-calendar-o fa-lg"></i>Mayo <?php echo $day; ?></h2></div>
           <div class="panel-body">
             <center>
                 <?php

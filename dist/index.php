@@ -69,7 +69,7 @@ $consulta=$evento->query('select id,hora,evento,ponente from programa where fech
         </ul>
         
         <div class="panel panel-info">
-          <div class="panel-heading"><h2 class="text-center"><i class="fa fa-calendar-o fa-lg"></i>19</h2></div>
+          <div class="panel-heading"><h2 class="text-center"><i class="fa fa-calendar-o fa-lg"></i>Mayo <?php echo $day; ?></h2></div>
           <div class="panel-body">
             <table class="table table-condensed table-striped">
               <thead>
