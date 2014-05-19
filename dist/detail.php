@@ -70,7 +70,7 @@ $consulta=$evento->query('select * from programa where id="'.$clave.'" order by 
         </ul>
         
         <div class="panel panel-info">
-          <div class="panel-heading"><h2 class="text-center"><i class="fa fa-calendar-o fa-lg"></i>Mayo <?php echo $day; ?></h2></div>
+          <div class="panel-heading"><h2 class="text-center"><?php echo $day; ?> de Mayo</h2></div>
           <div class="panel-body">
             <center>
             <table class="table table-condensed table-striped">
