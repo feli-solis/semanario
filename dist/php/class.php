@@ -16,7 +16,7 @@ class connection
 
 
 	function serverConnection(){	//server connection
-		$this->connection = mysql_connect($this->host,$this->userName,$this->password);
+		@$this->connection = mysql_connect($this->host,$this->userName,$this->password);
 		if(!$this->connection){
 			echo 'Error server connection';
 		}
