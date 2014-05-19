@@ -27,7 +27,7 @@ $consulta=$evento->query('select imagen from programa where id="'.$clave.'" orde
         <div class="panel-body" id="<?php echo $day; ?>">
         
         <ul class="nav nav-justified nav-pills">
-          <li class="active"><a href="#">
+          <li class="active"><a href="index.php?clave=19">
             <span class="fa-stack">
               <i class="fa fa-calendar-o fa-stack-2x"></i>
               <span class="fa fa-stack-1x">19</span>
