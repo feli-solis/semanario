@@ -9,9 +9,9 @@ error_reporting(E_ALL^ E_NOTICE);
 class connection
 {
 	var $host='localhost';			//server name
-	var $userName='root';			//user name on the server
-	var $password='';				//password to acces the server
-	protected $database='semanauniversitaria';	//database name
+	var $userName='suniversitaria';			//user name on the server
+	var $password='suniversitaria';				//password to acces the server
+	protected $database='suniversitaria';	//database name
 	protected $connection='';		//saved connection
 
 
