@@ -84,7 +84,7 @@ $consulta=$evento->query('select * from programa where id="'.$clave.'" order by 
               <tbody>
                 <?php
                 while($fila=mysql_fetch_array($consulta)){
-                  echo "<img src=../maps/".$fila['imagen']." class='img-responsive'>";
+                  echo "<img src=maps/".$fila['imagen']." class='img-responsive'>";
                   echo '<tr><td>'.$fila['hora'].'</td>';
                   echo '<td>'.$fila['evento']. ' '. $fila['ponente'] .'</td>';
                   echo '<td>'.$fila['lugar']. '</td></tr>';
