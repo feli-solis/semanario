@@ -71,7 +71,7 @@ $consulta=$evento->query('select id,hora,evento,ponente from programa where fech
         <div class="panel panel-info">
           <div class="panel-heading"><h2 class="text-center"><?php echo $day; ?> de Mayo</h2></div>
           <div class="panel-body">
-            <table class="table table-condensed table-striped">
+            <table class="table table-striped">
               <thead>
                 <tr>
                   <th>Hora</th>
