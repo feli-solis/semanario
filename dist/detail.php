@@ -23,7 +23,11 @@ $consulta=$evento->query('select * from programa where id="'.$clave.'" order by 
 
       <div class="row">
       <div class="panel panel-primary">
-        <div class="panel-heading"><h4 class="text-center">X Semana Universitaria</h4></div>
+        <div class="panel-heading">
+          <h4 class="text-center">
+            <span><img id="logo" src="img/dragon_white.svg" onerror="this.onerror=null; this.src='img/dragon_white.png'"></span>
+            X Semana Universitaria</h4>
+        </div>
         <div class="panel-body" id="<?php echo $day; ?>">
         
         <ul class="nav nav-justified nav-pills">
